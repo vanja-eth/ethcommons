@@ -11,11 +11,10 @@ EthCommons is built on the foundation that public, general-purpose blockchains l
 ### Our Vision
 
 "Ethereum for Social Good" encapsulates our mission to harness Ethereum to support global inclusivity in the digital economy, particularly benefiting those in less developed regions or marginalized communities.
-can control the network, ensuring uninterrupted access and operation worldwide.
 
 ## Contributing
 
-We welcome contributions and suggestions from the community! Whether it's code improvement, documentation, or spreading the word, your input is valuable. Please see our `CONTRIBUTING.md` for guidelines on how to contribute.
+We welcome contributions and suggestions from the community! Whether it's code improvement, documentation, or spreading the word, your input is valuable.
 
 ## License
 
