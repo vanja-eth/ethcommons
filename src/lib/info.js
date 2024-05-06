@@ -23,8 +23,8 @@ export const navMenu = [
           link: '/resources',
      },
      {
-          title: 'News',
-          link: '/news',
+          title: 'Events',
+          link: '/events',
      },
 ]
 

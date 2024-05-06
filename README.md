@@ -1,16 +1,26 @@
-# SvelteKit Personal Website Template 
+# Ethereum Commons
 
-A SvelteKit personal website template built on Tailwind.
+![Ethereum Commons Logo](/static/media/logo.png)
 
-[Demo](https://jranand.info)
+**EthCommons** is a community-driven, not-for-profit, educational hub dedicated to leveraging the Ethereum blockchain for social good. We focus on empowering individuals and organizations worldwide, particularly those who can benefit most from blockchain technology, to explore and realize their potential in a global and inclusive digital economy.
 
+## About Ethereum Commons
 
-# Install 
+EthCommons is built on the foundation that public, general-purpose blockchains like Ethereum enable the creation of next-generation enterprises. These platforms provide permissionless access to digital ownership, facilitating a transparent, permissionless, and trustless economic environment.
 
-Clone this repo. 
+### Our Vision
 
-`pnpm or npm install`
+"Ethereum for Social Good" encapsulates our mission to harness Ethereum to support global inclusivity in the digital economy, particularly benefiting those in less developed regions or marginalized communities.
+can control the network, ensuring uninterrupted access and operation worldwide.
 
-Deploy to to [Vercel](https://vercel.com) or [Netlify](https://netlify.com)
+## Contributing
 
+We welcome contributions and suggestions from the community! Whether it's code improvement, documentation, or spreading the word, your input is valuable. Please see our `CONTRIBUTING.md` for guidelines on how to contribute.
 
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details.
+
+## Contact
+
+For feedback, suggestions, or collaborations, please email us at [info@ethereumcommons.org](mailto:info@ethereumcommons.org).
