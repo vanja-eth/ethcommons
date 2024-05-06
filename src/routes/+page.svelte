@@ -15,13 +15,13 @@
 
 <section class="w-full">
   <div class="container mx-auto px-4 py-8">
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-8" style="grid-template-columns: 60% 40%;">
-      <div>
-        <h1 class="text-4xl font-bold mb-4 my-8">Ethereum for social good</h1>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div class="md:col-span-2">
+        <h1 class="text-4xl font-bold mb-4 mt-8">Ethereum for social good</h1>
         <p class="text-lg mb-4">{bio}</p>
       </div>
-      <div>
-        <div class="mr-8 bg-zinc-600 dark:bg-zinc-300 hover:bg-zinc-700 dark:hover:bg-zinc-200 p-6 rounded-3xl shadow-lg mt-10 transition-colors duration-300">          
+      <div class="md:col-span-1">
+        <div class="bg-zinc-600 dark:bg-zinc-300 hover:bg-zinc-700 dark:hover:bg-zinc-200 p-6 rounded-3xl shadow-lg md:mt-10 transition-colors duration-300">          
           <div class=" flex items-center">
             <EthSvg class="w-6 h-6 fill-current text-white dark:text-zinc-800" />
             <h2 class="text-2xl px-1 font-bold text-zinc-100 dark:text-zinc-900">Ethereum</h2>

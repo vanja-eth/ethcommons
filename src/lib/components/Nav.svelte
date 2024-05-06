@@ -4,9 +4,16 @@
   import SunIcon from 'heroicons-svelte/solid/SunIcon.svelte'
   import { browser } from '$app/environment'
   import { page } from '$app/stores';
-  import { name } from '$lib/info'
+  import MenuIcon from 'heroicons-svelte/solid/MenuIcon.svelte'
+  import MenuItems from './MenuItems.svelte'
+  import Logo from './Logo.svelte';
 
-  let toggleMenu = false;
+  let menuOpen = false;
+
+  function toggleMenu() {
+    menuOpen = !menuOpen;
+  }
+  
   let isDarkMode = browser ? Boolean(document.documentElement.classList.contains('dark')) : true
   
   $: currentPage = $page.path;
@@ -20,39 +27,21 @@
 </script>
 
 <header class="flex items-center justify-between w-full py-4 mx-auto lg:pb-8 gap-16"> 
-  <a class="flex items-center font-bold dark:text-zinc-200 text-zinc-700" href="/">
-    <img src="media/logo.png" alt="Ethereum Commons Logo" class="h-14 w-auto mr-4 object-contain" />
-    <div class="flex flex-col items-start">
-      <span class="text-xl font-bold offset-first-line tight-space-y">eth</span>
-      <span class="text-xl font-bold tight-space-y">commons</span>
-      <span class="text-xl font-light tight-space-y">.org</span>
-    </div>
-  </a>
+  <Logo />
 
-  <div class="flex justify-around gap-2 items-center">
+  <div class="relative flex justify-around gap-2 items-center">
+    <button class="sm:hidden" on:click={toggleMenu}>
+      <MenuIcon class="h-6 w-6" />
+    </button>
+    
+    <nav aria-label="Global" class={`${menuOpen ? 'block' : 'hidden'} absolute top-full right-3 w-full sm:relative sm:flex sm:items-center bg-white sm:bg-transparent`}>
+      <ul class="flex flex-col sm:flex-row gap-2 text-sm w-full sm:w-auto">
+        <MenuItems {navMenu} />
+      </ul>
+    </nav>
+
+
     <div class="sm:flex hidden justify-center p-1 relative sm:w-auto sm:-space-x-px overflow-hidden sm:rounded">
-      <nav aria-label="Global">
-        <ul class="flex items-center gap-2 text-sm">
-          {#each navMenu as item}
-          <li>
-            <a
-              href={item.link}
-              class={`${$page.url.pathname === item.link ? 'rounded-lg bg-teal-100 text-teal-800 dark:bg-teal-900 dark:text-teal-100': 'rounded-lg bg-transparent text-teal-800 dark:bg-transparent dark:text-teal-100'} inline-block px-4 py-2 text-sm rounded font-medium hover:bg-teal-200 hover:text-teal-900 dark:hover:bg-teal-800 dark:hover:text-teal-100 focus:relative transition-colors duration-300` }
-            >
-              {item.title}
-            </a>
-          </li>
-        {/each}
-        <li>
-          <a
-            href="mailto:info@ethereumcommons.org"
-            class={`${$page.url.pathname === '/contact' ? 'rounded-lg bg-teal-100 text-teal-800 dark:bg-teal-900 dark:text-teal-100': 'rounded-lg bg-transparent text-teal-800 dark:bg-transparent dark:text-teal-100'} inline-block px-4 py-2 text-sm rounded font-medium hover:bg-teal-200 hover:text-teal-900 dark:hover:bg-teal-800 dark:hover:text-teal-100 focus:relative transition-colors duration-300`}
-          >
-            Contact
-          </a>
-        </li>
-          </ul>
-      </nav>
     </div>
     <style>
       .rotate {
