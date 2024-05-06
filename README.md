@@ -1,6 +1,6 @@
 # Ethereum Commons
 
-<img src="/static/media/logo.png" alt="Ethereum Commons Logo" width="200"/>
+<img src="/static/media/logo.png" alt="Ethereum Commons Logo" width="80"/>
 
 **EthCommons** is a community-driven, not-for-profit, educational hub dedicated to leveraging the Ethereum blockchain for social good. We focus on empowering individuals and organizations worldwide, particularly those who can benefit most from blockchain technology, to explore and realize their potential in a global and inclusive digital economy.
 
