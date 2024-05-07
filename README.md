@@ -16,6 +16,8 @@ EthCommons is built on the foundation that public, general-purpose blockchains l
 
 We welcome contributions and suggestions from the community! Whether it's code improvement, documentation, or spreading the word, your input is valuable.
 
+The website v0.01, was created by me, Vanja, who is not a coder. So please judge the book by its cover, not its content ;)
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details.
