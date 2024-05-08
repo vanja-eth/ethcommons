@@ -29,8 +29,10 @@
 
             <p class="text-m text-zinc-400 dark:text-zinc-600 py-2">/ɪˈθɪərɪəm/ [Ee-thee-ree-um] <span class="text-m font-medium italic">(noun)</span></p>
             <p class="text-m text-zinc-300 dark:text-zinc-800">
-                A global, open-source computing platform where decentralized applications, smart contracts, and digital assets are built and shared, facilitating the emergence of a transparent, permissionless, and trustless economy.
-            </p>
+              A global, open-source blockchain platform enabling the creation of decentralized 
+              applications (dApps), smart contracts, and digital assets.  Ethereum's 
+              design prioritizes transparency, security, and the elimination of 
+              intermediaries.            </p>
         </div>
       </div>
     </div>

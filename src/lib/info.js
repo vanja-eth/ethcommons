@@ -6,10 +6,11 @@ export const name = `${firstName} ${lastName}`
 
 export const avatar = 'ethereum-logo.png'
 export const bio = `\
-Ethereum Commons is a community-driven, not-for-profit, educational hub dedicated to helping people who can disproportionally benefit the most from the Ethereum ecosystem. 
-We believe in the freedom for individuals and organizations to explore and realize their potential, regardless of location. 
-Public, general-purpose blockchains like Ethereum facilitate the creation of next-generation enterprises and provide permissionless access to digital ownership worldwide, 
-enabling a truly global and inclusive digital economy.
+Ethereum Commons is a community-driven, not-for-profit organization dedicated to empowering 
+individuals and communities through Ethereum technology. We believe in the power of 
+decentralized systems to create a more inclusive and equitable digital economy. 
+Our focus is on providing education and resources to those who can benefit the most, 
+regardless of location.
 
 
 `

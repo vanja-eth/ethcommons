@@ -3,18 +3,18 @@ export const communityMissionData = [
     image: "/media/empower.jpg",
     alt: "Empower",
     title: "Empowerment through Ownership",
-    description: "We support initiatives that enable people, particularly those in less developed countries or from marginalized  groups, to have self-custody of their assets, empowering them to manage and control their economic life without fear of loss through bad intermediation or intervention."
+    description: "We support initiatives that put people and organizations, especially those in less-developed countries or from marginalized groups, in direct control of their assets. This self-custody empowers them to manage their economic lives with greater independence and reduces the risks posed by unreliable intermediaries."
   },
   {
     image: "/media/education.jpg",
     alt: "Access",
-    title: "Helping the Newbies",
-    description: "EthCommons is dedicated to developing a knowledge community where experts share their insights with newcomers. We provide educational services on web3 best practices, transaction safety, and the fundamentals of self-custody, aiming to equip newcomers with the skills needed to protect and transact with their digital assets securely."
+    title: "Onboarding Newcomers",
+    description: "EthCommons creates a welcoming space where experts share their knowledge with those new to Ethereum. Our educational resources focus on web3 safety, secure transactions, and the importance of self-custody, giving newcomers the tools they need to confidently interact with digital assets."
   },
   {
     image: "/media/growth.jpg",
     alt: "Access",
     title: "Growing the community in high-impact regions",
-    description: "Our mission extends to growing the Ethereum community in regions with poor access to sound financial infrastructure. EthCommons focuses on areas where decentralized solutions can offer disproportionate benefits, promoting economic inclusion and opening new avenues for investment and financial security."
+    description: "We focus on expanding the Ethereum community in regions where access to sound traditional financial systems is limited. In these areas, decentralized solutions offer the most significant benefits, and EthCommons works to promote financial inclusion, opening up new avenues for investment and economic growth."
   }
 ];
