@@ -10,8 +10,8 @@ export const items = [
     svgPath: 'M8 7V6a1 1 0 0 1 1-1h11a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1h-1M3 18v-7a1 1 0 0 1 1-1h11a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1Zm8-3.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Z'
   },
   {
-    title: 'Censorship Resistant',
-    description: 'Ethereum is not controlled by any single entity, and this design makes it resistant to censorship. As such, no single entity can block transactions or restrict access, ensuring financial freedom for all users.',
+    title: 'Credibly Neutral',
+    description: 'Ethereum is not controlled by a company or person, and this design makes it resistant to censorship. As such, no single entity can block transactions or restrict access to the Ethereum ecosystem.',
     svgPath: 'M12 20a16.405 16.405 0 0 1-5.092-5.804A16.694 16.694 0 0 1 5 6.666L12 4l7 2.667a16.695 16.695 0 0 1-1.908 7.529A16.406 16.406 0 0 1 12 20Z'
   },
   {
