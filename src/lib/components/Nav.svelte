@@ -153,11 +153,11 @@
       }
     }}
   >
-    {#if isDarkMode}
-      <MoonIcon class="hidden text-zinc-500 dark:block hover:text-yellow-500 transition-colors duration-200 rotate" />
-    {:else}
-      <SunIcon class="block text-zinc-400 dark:hidden hover:text-orange-500 transition-colors duration-200 rotate" />
-    {/if}
+  {#if isDarkMode}
+  <SunIcon class="block text-zinc-400 dark:hidden hover:text-orange-500 transition-colors duration-200 rotate" />
+{:else}
+  <MoonIcon class="hidden text-zinc-500 dark:block hover:text-yellow-500 transition-colors duration-200 rotate" />
+{/if}
   </button>
   </div>
 </header>
