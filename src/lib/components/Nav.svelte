@@ -130,34 +130,30 @@
     </style>
     
     <button
-    type="button"
-    role="switch"
-    aria-label="Toggle Dark Mode"
-    aria-checked={isDarkMode}
-    class="w-5 h-5 sm:h-8 sm:w-8 sm:p-1 transition-colors duration-200"
-    on:click={() => {
-      isDarkMode = !isDarkMode
-      localStorage.setItem('isDarkMode', isDarkMode.toString())
-  
-      disableTransitionsTemporarily()
-  
-      if (isDarkMode) {
-        document.querySelector('html').classList.add('dark')
-      } else {
-        document.querySelector('html').classList.remove('dark')
-      }
-  
-      // Close the menu on mobile
-      if (window.innerWidth <= 768) {
-        isMenuOpen = false;
-      }
-    }}
-  >
-  {#if isDarkMode}
-  <SunIcon class="block text-zinc-400 dark:hidden hover:text-orange-500 transition-colors duration-200 rotate" />
+  class="w-5 h-5 sm:h-8 sm:w-8 sm:p-1 transition-colors duration-200"
+  on:click={() => {
+    isDarkMode = !isDarkMode
+    localStorage.setItem('isDarkMode', isDarkMode.toString())
+
+    disableTransitionsTemporarily()
+
+    if (isDarkMode) {
+      document.querySelector('html').classList.add('dark')
+    } else {
+      document.querySelector('html').classList.remove('dark')
+    }
+
+    // Close the menu on mobile
+    if (window.innerWidth <= 768) {
+      isMenuOpen = false;
+    }
+  }}
+>
+{#if isDarkMode}
+  <SunIcon class="block text-zinc-400 hover:text-orange-500 transition-colors duration-200 rotate" />
 {:else}
-  <MoonIcon class="hidden text-zinc-500 dark:block hover:text-yellow-500 transition-colors duration-200 rotate" />
+  <MoonIcon class="block text-zinc-500 hover:text-yellow-500 transition-colors duration-200 rotate" />
 {/if}
-  </button>
-  </div>
+</button>
+</div>
 </header>
