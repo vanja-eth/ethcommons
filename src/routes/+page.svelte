@@ -9,7 +9,7 @@
 </script>
 
 <svelte:head>
-  <title>{name} | Ethereum for Social Good</title>
+  <title>{name} | Ethereum as a Common Good</title>
   <meta name="description" content={bio} />
 </svelte:head>
 
@@ -17,7 +17,7 @@
   <div class="container mx-auto px-4 py-8">
     <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
       <div class="md:col-span-1">
-        <h1 class="text-4xl font-bold mb-4 mt-8">Ethereum for social good</h1>
+        <h1 class="text-4xl font-bold mb-4 mt-8">Ethereum as a common good</h1>
         <p class="text-lg mb-4">{bio}</p>
       </div>
       <div class="md:col-span-1">
